@@ -16,7 +16,7 @@ import {
     Loader2,
 } from "lucide-react";
 
-const api = axios.create({ baseURL: "http://localhost:8080/supertick" });
+const api = axios.create({ baseURL: "https://automated-to-do-list.onrender.com" });
 
 type EnergyLevel = "low" | "medium" | "high";
 
