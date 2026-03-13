@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0b1120;
+  --color-card: #111827;
+  --color-emerald-primary: #10b981;
+}
+
+@layer base {
+  body {
+    background-color: #0b1120;
+    color: #e2e8f0; /* This is the hex for slate-200 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b1120;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Glass Card helper */
+.glass-card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 1rem;
+}
